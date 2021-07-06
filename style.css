@@ -13,7 +13,26 @@ p {
 h1 {
   font-size: 45px;
 }
-
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 102, 0);
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 .flexible-container {
   display: flex;
   margin-bottom: 100px;
