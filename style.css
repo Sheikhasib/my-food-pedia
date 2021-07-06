@@ -8,17 +8,19 @@ body {
 p {
   font-size: 15px;
   margin-bottom: 50px;
+  text-align: justify;
 }
 h1 {
   font-size: 45px;
 }
 
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
 .half-width {
   width: 50%;
+  padding-left: 50px;
 }
 .half-width img {
   width: 50%;
@@ -30,15 +32,55 @@ section {
   border-radius: 30px;
   color: whitesmoke;
 }
-.first-sec {
-  background-position: left;
-  background-position: right;
-  padding-left: 50px;
-}
+
 .about-me {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   background-position: left;
   background-position: right;
   padding: 100px 150px;
+}
+.recipie {
+  text-align: center;
+  padding: 10px 500px;
+}
+.recipie-item {
+  width: 85%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 3px 3px teal, -1em 0 0.4em teal;
+}
+
+#classic-shepherd {
+  border: 5px solid teal;
+}
+#impossible-quiche {
+  border: 5px solid teal;
+}
+#potato-and-leek-soup {
+  border: 5px solid teal;
+}
+.segment-list img {
+  width: 100%;
+  border-radius: 20px;
+}
+.social-media {
+  text-align: center;
+  padding: 20px 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+footer p {
+  text-align: center;
+}
+.footer-h3 {
+  text-align: center;
+  font-size: 50px;
+}
+.footer-background {
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
